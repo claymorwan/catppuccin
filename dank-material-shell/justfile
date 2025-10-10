@@ -1,0 +1,12 @@
+all: frappe macchiato mocha
+
+cmd := "whiskers dms.tera --flavor"
+
+frappe:
+   {{cmd}} frappe
+
+macchiato:
+  {{cmd}} macchiato
+
+mocha:
+  {{cmd}} mocha

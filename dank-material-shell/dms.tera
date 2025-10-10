@@ -1,0 +1,73 @@
+---
+whiskers:
+    version: "^2.5.1"
+    matrix:
+      - flavor
+      - accent
+    hex_format: "{{R}}{{G}}{{B}}{{Z}}"
+    filename: "themes/{{ flavor.identifier }}-latte/colors-{{ accent }}.json"
+---
+{%- macro tint(color, amt) -%}
+  {{ color | add(lightness=amt*3) | add(hue=amt) | sub(saturation=amt*10) | get(key="hex") }}
+{%- endmacro tint -%}
+{%- macro shade(color, amt) -%}
+  {{ color | sub(lightness=amt*8) | sub(hue=amt) | add(saturation=amt*10) | get(key="hex") }}
+{%- endmacro shade -%}
+
+{%- macro inverse(color) -%}
+  {%- if flavor.dark -%}
+    {{ flavors.latte.colors[color.identifier].hex }}
+  {%- else -%}
+    {{ flavors.mocha.colors[color.identifier].hex }}
+  {%- endif -%}
+{%- endmacro inverse-%}
+
+{%- set accent = flavor.colors[accent] -%}
+{%- set latte = flavors.latte -%}
+
+{
+  "dark": {
+    "name": "Catppuccin {{ flavor.name }} {{ accent.name }}",
+    "primary": "#{{ accent.hex }}",
+    "primaryText": "#{{ crust.hex }}",
+    "primaryContainer": "#{{ self::shade(color=accent, amt=1)}}",
+    "secondary": "#{{ self::shade(color=accent, amt=1)}}",
+    "surface": "#{{ mantle.hex }}",
+    "surfaceText": "#{{ text.hex }}",
+    "surfaceVariant": "#{{ mantle.hex }}",
+    "surfaceVariantText": "#{{ subtext0.hex }}",
+    "surfaceTint": "#{{ surface2.hex }}",
+    "background": "#{{ mantle.hex }}",
+    "backgroundText": "#{{ text.hex }}",
+    "outline": "#{{ surface0.hex }}",
+    "surfaceContainer": "#{{ base.hex }}",
+    "surfaceContainerHigh": "#{{ surface1.hex }}",
+    "surfaceContainerHighest": "#{{ surface2.hex }}",
+    "error": "#{{ red.hex }}",
+    "warning": "#{{ yellow.hex }}",
+    "info": "#{{ sky.hex }}",
+    "matugen_type": "scheme-expressive"
+  },
+  "light": {
+    "name": "Catppuccin Latte {{ accent.name }}",
+    "primary": "#{{ latte.colors[accent.identifier].hex }}",
+    "primaryText": "#{{ latte.colors["crust"].hex }}",
+    "primaryContainer": "#{{ self::shade(color=latte.colors[accent.identifier], amt=1) }}",
+    "secondary": "#{{ self::shade(color=latte.colors[accent.identifier], amt=1) }}",
+    "surface": "#{{ latte.colors["mantle"].hex }}",
+    "surfaceText": "#{{ latte.colors["text"].hex }}",
+    "surfaceVariant": "#{{ latte.colors["mantle"].hex }}",
+    "surfaceVariantText": "#{{ latte.colors["subtext0"].hex }}",
+    "surfaceTint": "#{{ latte.colors["surface2"].hex }}",
+    "background": "#{{ latte.colors["mantle"].hex }}",
+    "backgroundText": "#{{ latte.colors["text"].hex }}",
+    "outline": "#{{ latte.colors["surface0"].hex }}",
+    "surfaceContainer": "#{{ latte.colors["base"].hex }}",
+    "surfaceContainerHigh": "#{{ latte.colors["surface1"].hex }}",
+    "surfaceContainerHighest": "#{{ latte.colors["surface2"].hex }}",
+    "error": "#{{ latte.colors["red"].hex }}",
+    "warning": "#{{ latte.colors["yellow"].hex }}",
+    "info": "#{{ latte.colors["sky"].hex }}",
+    "matugen_type": "scheme-expressive"
+  }
+}
