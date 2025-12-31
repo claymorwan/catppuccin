@@ -4,7 +4,7 @@
     "primary": "#74C7EC",
     "primaryText": "#11111B",
     "primaryContainer": "#47BEF1",
-    "secondary": "#47BEF1",
+    "secondary": "#74C7EC",
     "surface": "#11111B",
     "surfaceText": "#CDD6F4",
     "surfaceVariant": "#181825",
@@ -19,14 +19,14 @@
     "error": "#F38BA8",
     "warning": "#F9E2AF",
     "info": "#89DCEB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Sapphire",
     "primary": "#209FB5",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#118A9D",
-    "secondary": "#118A9D",
+    "secondary": "#209FB5",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

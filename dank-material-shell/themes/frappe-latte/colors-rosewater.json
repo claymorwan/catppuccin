@@ -4,7 +4,7 @@
     "primary": "#F2D5CF",
     "primaryText": "#232634",
     "primaryContainer": "#EFB5AB",
-    "secondary": "#EFB5AB",
+    "secondary": "#F2D5CF",
     "surface": "#232634",
     "surfaceText": "#C6D0F5",
     "surfaceVariant": "#292C3C",
@@ -19,14 +19,14 @@
     "error": "#E78284",
     "warning": "#E5C890",
     "info": "#99D1DB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Rosewater",
     "primary": "#DC8A78",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#DE664E",
-    "secondary": "#DE664E",
+    "secondary": "#DC8A78",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

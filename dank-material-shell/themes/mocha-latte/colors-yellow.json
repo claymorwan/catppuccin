@@ -4,7 +4,7 @@
     "primary": "#F9E2AF",
     "primaryText": "#11111B",
     "primaryContainer": "#FDD483",
-    "secondary": "#FDD483",
+    "secondary": "#F9E2AF",
     "surface": "#11111B",
     "surfaceText": "#CDD6F4",
     "surfaceVariant": "#181825",
@@ -19,14 +19,14 @@
     "error": "#F38BA8",
     "warning": "#F9E2AF",
     "info": "#89DCEB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Yellow",
     "primary": "#DF8E1D",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#C6760E",
-    "secondary": "#C6760E",
+    "secondary": "#DF8E1D",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

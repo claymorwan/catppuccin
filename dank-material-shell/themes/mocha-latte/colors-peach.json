@@ -4,7 +4,7 @@
     "primary": "#FAB387",
     "primaryText": "#11111B",
     "primaryContainer": "#FF975B",
-    "secondary": "#FF975B",
+    "secondary": "#FAB387",
     "surface": "#11111B",
     "surfaceText": "#CDD6F4",
     "surfaceVariant": "#181825",
@@ -19,14 +19,14 @@
     "error": "#F38BA8",
     "warning": "#F9E2AF",
     "info": "#89DCEB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Peach",
     "primary": "#FE640B",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#E24F00",
-    "secondary": "#E24F00",
+    "secondary": "#FE640B",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

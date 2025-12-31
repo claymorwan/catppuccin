@@ -4,7 +4,7 @@
     "primary": "#F5C2E7",
     "primaryText": "#11111B",
     "primaryContainer": "#F59BDF",
-    "secondary": "#F59BDF",
+    "secondary": "#F5C2E7",
     "surface": "#11111B",
     "surfaceText": "#CDD6F4",
     "surfaceVariant": "#181825",
@@ -19,14 +19,14 @@
     "error": "#F38BA8",
     "warning": "#F9E2AF",
     "info": "#89DCEB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Pink",
     "primary": "#EA76CB",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#EF49C5",
-    "secondary": "#EF49C5",
+    "secondary": "#EA76CB",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

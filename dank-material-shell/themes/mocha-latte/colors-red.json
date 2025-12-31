@@ -4,7 +4,7 @@
     "primary": "#F38BA8",
     "primaryText": "#11111B",
     "primaryContainer": "#F85E8C",
-    "secondary": "#F85E8C",
+    "secondary": "#F38BA8",
     "surface": "#11111B",
     "surfaceText": "#CDD6F4",
     "surfaceVariant": "#181825",
@@ -19,14 +19,14 @@
     "error": "#F38BA8",
     "warning": "#F9E2AF",
     "info": "#89DCEB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Red",
     "primary": "#D20F39",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#B7032D",
-    "secondary": "#B7032D",
+    "secondary": "#D20F39",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

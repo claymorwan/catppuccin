@@ -4,7 +4,7 @@
     "primary": "#F0C6C6",
     "primaryText": "#181926",
     "primaryContainer": "#EDA1A2",
-    "secondary": "#EDA1A2",
+    "secondary": "#F0C6C6",
     "surface": "#181926",
     "surfaceText": "#CAD3F5",
     "surfaceVariant": "#1E2030",
@@ -19,14 +19,14 @@
     "error": "#ED8796",
     "warning": "#EED49F",
     "info": "#91D7E3",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Flamingo",
     "primary": "#DD7878",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#E04E51",
-    "secondary": "#E04E51",
+    "secondary": "#DD7878",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

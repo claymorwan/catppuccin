@@ -14,16 +14,9 @@ whiskers:
   {{ color | sub(lightness=amt*8) | sub(hue=amt) | add(saturation=amt*10) | get(key="hex") }}
 {%- endmacro shade -%}
 
-{%- macro inverse(color) -%}
-  {%- if flavor.dark -%}
-    {{ flavors.latte.colors[color.identifier].hex }}
-  {%- else -%}
-    {{ flavors.mocha.colors[color.identifier].hex }}
-  {%- endif -%}
-{%- endmacro inverse-%}
-
 {%- set accent = flavor.colors[accent] -%}
 {%- set latte = flavors.latte -%}
+{%- set scheme = "scheme-neutral" -%}
 
 {
   "dark": {
@@ -31,7 +24,7 @@ whiskers:
     "primary": "#{{ accent.hex }}",
     "primaryText": "#{{ crust.hex }}",
     "primaryContainer": "#{{ self::shade(color=accent, amt=1)}}",
-    "secondary": "#{{ self::shade(color=accent, amt=1)}}",
+    "secondary": "#{{ accent.hex }}",
     "surface": "#{{ crust.hex }}",
     "surfaceText": "#{{ text.hex }}",
     "surfaceVariant": "#{{ mantle.hex }}",
@@ -46,14 +39,14 @@ whiskers:
     "error": "#{{ red.hex }}",
     "warning": "#{{ yellow.hex }}",
     "info": "#{{ sky.hex }}",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "{{ scheme }}"
   },
   "light": {
     "name": "Catppuccin Latte {{ accent.name }}",
     "primary": "#{{ latte.colors[accent.identifier].hex }}",
     "primaryText": "#{{ latte.colors["crust"].hex }}",
     "primaryContainer": "#{{ self::shade(color=latte.colors[accent.identifier], amt=1) }}",
-    "secondary": "#{{ self::shade(color=latte.colors[accent.identifier], amt=1) }}",
+    "secondary": "#{{ latte.colors[accent.identifier].hex }}",
     "surface": "#{{ latte.colors["crust"].hex }}",
     "surfaceText": "#{{ latte.colors["text"].hex }}",
     "surfaceVariant": "#{{ latte.colors["mantle"].hex }}",
@@ -68,6 +61,6 @@ whiskers:
     "error": "#{{ latte.colors["red"].hex }}",
     "warning": "#{{ latte.colors["yellow"].hex }}",
     "info": "#{{ latte.colors["sky"].hex }}",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "{{ scheme }}"
   }
 }

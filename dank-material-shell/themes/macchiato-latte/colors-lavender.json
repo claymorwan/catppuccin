@@ -4,7 +4,7 @@
     "primary": "#B7BDF8",
     "primaryText": "#181926",
     "primaryContainer": "#8D9AFB",
-    "secondary": "#8D9AFB",
+    "secondary": "#B7BDF8",
     "surface": "#181926",
     "surfaceText": "#CAD3F5",
     "surfaceVariant": "#1E2030",
@@ -19,14 +19,14 @@
     "error": "#ED8796",
     "warning": "#EED49F",
     "info": "#91D7E3",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Lavender",
     "primary": "#7287FD",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#4967FF",
-    "secondary": "#4967FF",
+    "secondary": "#7287FD",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

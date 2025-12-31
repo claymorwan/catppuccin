@@ -4,7 +4,7 @@
     "primary": "#8BD5CA",
     "primaryText": "#181926",
     "primaryContainer": "#64D4C2",
-    "secondary": "#64D4C2",
+    "secondary": "#8BD5CA",
     "surface": "#181926",
     "surfaceText": "#CAD3F5",
     "surfaceVariant": "#1E2030",
@@ -19,14 +19,14 @@
     "error": "#ED8796",
     "warning": "#EED49F",
     "info": "#91D7E3",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Teal",
     "primary": "#179299",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#0B797D",
-    "secondary": "#0B797D",
+    "secondary": "#179299",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }

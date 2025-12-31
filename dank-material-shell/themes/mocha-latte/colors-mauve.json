@@ -4,7 +4,7 @@
     "primary": "#CBA6F7",
     "primaryText": "#11111B",
     "primaryContainer": "#B37BFB",
-    "secondary": "#B37BFB",
+    "secondary": "#CBA6F7",
     "surface": "#11111B",
     "surfaceText": "#CDD6F4",
     "surfaceVariant": "#181825",
@@ -19,14 +19,14 @@
     "error": "#F38BA8",
     "warning": "#F9E2AF",
     "info": "#89DCEB",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   },
   "light": {
     "name": "Catppuccin Latte Mauve",
     "primary": "#8839EF",
     "primaryText": "#DCE0E8",
     "primaryContainer": "#6C07F9",
-    "secondary": "#6C07F9",
+    "secondary": "#8839EF",
     "surface": "#DCE0E8",
     "surfaceText": "#4C4F69",
     "surfaceVariant": "#E6E9EF",
@@ -41,6 +41,6 @@
     "error": "#D20F39",
     "warning": "#DF8E1D",
     "info": "#04A5E5",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-neutral"
   }
 }
